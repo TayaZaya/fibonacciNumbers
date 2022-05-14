@@ -8,5 +8,18 @@ def fib(number):
         a = b
         b = temp + b
 
-for x in fib(100):
+for x in fib(5):
     print(x)
+
+# making a list of the fibonacci
+def fib2(number):
+    a = 0
+    b = 1
+    result = []
+    for i in range(number):
+        result.append(a)
+        temp = a
+        a = b
+        b = temp + b
+    return result
+print(fib2(21))
