@@ -1,3 +1,4 @@
+# making a generator for fibonacci numbers
 def fib(number):
     a = 0
     b = 1
